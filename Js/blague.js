@@ -3,7 +3,7 @@
 async function getBlagueRondom(){
 
     try {
-let response = await fetch("https://blagues-app-1.onrender.com/apiv1/blague/random")
+let response = await fetch("https://blagues-app-1.onrender.com/apiv1/blagues/random")
 
  if (!response.ok) throw new Error("Erreur serveur");
 
