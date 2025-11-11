@@ -1,0 +1,32 @@
+
+## Blagues app -Frontend
+
+## Description.
+
+Interface web simple qui permet d'afficher des blagues aléatoires
+provenant de l'API **Blagues App**.
+
+Développé avec **HTML**,**CSS**,**Javascript**.
+Hébergé sur **GITHub Pages**
+
+---
+## Déploiement
+
+- **Front en ligne** :[https://souley-dot.github.io/blagues-app-front]
+- **API utilisée** :[https://blagues-app-1.onrender.com]
+
+## Fonctionnalités
+
+- Afficher une blague aléatoire en cliquant sur le bouton
+- Affichage dynamique avec `fech()` vers l'API
+- Réponse listées sous la question.
+- Design responsive simple et propre.
+
+
+## Exemple de fonctionnement
+1. Le bouton **"nouvelle blague"** appelle l'API via `fetch`
+2. Une blague est récupéree et affichée dans une liste ordonées.
+3. La réponse apparait sous la question.
+
+## Installation locale
+- git clone https://github.com/souley-dot/blagues-app-front.git
